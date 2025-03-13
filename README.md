@@ -315,7 +315,6 @@ nodemon index.js       # 文件修改后自动重启
 
 拿到别人给我们的网址：https://github.com/plwanfeng/Fireverse_AutoGetTokens_bot
 
-![image-20250313102153951](/Users/admin/Library/Application Support/typora-user-images/image-20250313102153951.png)
 
 点击Code后，会出现下拉表，我们点击**Download ZIP**
 
