@@ -314,17 +314,20 @@ nodemon index.js       # 文件修改后自动重启
 ### 下载脚本：访问github上的脚本并下载
 
 拿到别人给我们的网址：https://github.com/plwanfeng/Fireverse_AutoGetTokens_bot
+![image-20250313102153951](https://github.com/user-attachments/assets/e179d1c9-3856-4fcb-8a84-c08c2addf3f0)
 
 
 点击Code后，会出现下拉表，我们点击**Download ZIP**
 
-![image-20250313102226039](/Users/admin/Library/Application Support/typora-user-images/image-20250313102226039.png)
+![image-20250313102226039](https://github.com/user-attachments/assets/da3b0713-4534-41a8-aedd-76f4f065f775)
+
 
 
 
 下载到桌面后，解压得到**源码文件**以及**资源文件**
 
-![image-20250313102358443](/Users/admin/Library/Application Support/typora-user-images/image-20250313102358443.png)
+![image-20250313102358443](https://github.com/user-attachments/assets/70fa0029-dc35-4989-b9aa-912a021ded68)
+
 
 ```
 需要了解的几个文件：
@@ -341,7 +344,8 @@ cd ~/Desktop/文件夹名  # 替换为你的实际路径
 ls为Linux和mac下命令，查看当前文件夹里面的内容，windows为dir命令
 ```
 
-![image-20250313103145032](/Users/admin/Library/Application Support/typora-user-images/image-20250313103145032.png)
+![image-20250313103145032](https://github.com/user-attachments/assets/50887a04-7242-4e86-8528-3b1ac51aea5e)
+
 
 然后我们安装依赖包
 
@@ -349,7 +353,8 @@ ls为Linux和mac下命令，查看当前文件夹里面的内容，windows为dir
 npm install
 ```
 
-![image-20250313103802407](/Users/admin/Library/Application Support/typora-user-images/image-20250313103802407.png)
+![image-20250313103802407](https://github.com/user-attachments/assets/a8f0cdf2-1c5f-4307-ab81-81bd20a5f2c8)
+
 
 最后运行我们的脚本
 
@@ -357,7 +362,8 @@ npm install
 node index.js
 ```
 
-![image-20250313104013069](/Users/admin/Library/Application Support/typora-user-images/image-20250313104013069.png)
+![image-20250313104013069](https://github.com/user-attachments/assets/ed6b0714-48e4-49da-b34b-fefc8b9a98b0)
+
 
 ![Image](https://pbs.twimg.com/media/GlscLW1bUAAxmHg?format=jpg&name=medium)
 
