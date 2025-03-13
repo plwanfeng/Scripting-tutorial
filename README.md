@@ -308,3 +308,57 @@ nodemon index.js       # 文件修改后自动重启
   rm -rf node_modules  # 删除旧依赖
   npm install          # 重新安装
   ```
+
+## 🌰举个栗子（以nodejs为例）
+
+### 下载脚本：访问github上的脚本并下载
+
+拿到别人给我们的网址：https://github.com/plwanfeng/Fireverse_AutoGetTokens_bot
+
+![image-20250313102153951](/Users/admin/Library/Application Support/typora-user-images/image-20250313102153951.png)
+
+点击Code后，会出现下拉表，我们点击**Download ZIP**
+
+![image-20250313102226039](/Users/admin/Library/Application Support/typora-user-images/image-20250313102226039.png)
+
+
+
+下载到桌面后，解压得到**源码文件**以及**资源文件**
+
+![image-20250313102358443](/Users/admin/Library/Application Support/typora-user-images/image-20250313102358443.png)
+
+```
+需要了解的几个文件：
+1、index.js为主程序入口，也是我们最终要运行的脚本文件，我这个脚本是叫new_index.js，这是我的错，我不应该不规范。
+2、wallets.txt一般是来存放钱包地址或者钱包私钥的，看脚本作者需要你提供什么。
+3、tokens.txt为一个网站交互用的身份认证码，以此码来对应你的账号信息。
+4、proxy.txt为代理IP，通常代理IP格式为http://账号:密码@ip:端口。
+```
+
+我们需要根据脚本需要配置以上文件，然后我们进入脚本的目录
+
+```
+cd ~/Desktop/文件夹名  # 替换为你的实际路径
+ls为Linux和mac下命令，查看当前文件夹里面的内容，windows为dir命令
+```
+
+![image-20250313103145032](/Users/admin/Library/Application Support/typora-user-images/image-20250313103145032.png)
+
+然后我们安装依赖包
+
+```
+npm install
+```
+
+![image-20250313103802407](/Users/admin/Library/Application Support/typora-user-images/image-20250313103802407.png)
+
+最后运行我们的脚本
+
+```
+node index.js
+```
+
+![image-20250313104013069](/Users/admin/Library/Application Support/typora-user-images/image-20250313104013069.png)
+
+![Image](https://pbs.twimg.com/media/GlscLW1bUAAxmHg?format=jpg&name=medium)
+
